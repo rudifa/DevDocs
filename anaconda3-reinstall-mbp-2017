@@ -1,0 +1,41 @@
+reinstall on MBP 2017
+
+mv opt/anaconda3 opt/anaconda3-PREVIOUS
+
+Anaconda3-2024.06-1-MacOSX-x86_64.pkg - install in /Users/rudifarkas
+
+rudifarkas % which python
+/Users/rudifarkas/opt/anaconda3/bin/python
+rudifarkas % which conda
+/Users/rudifarkas/opt/anaconda3/bin/conda
+
+rudifarkas % path
+.
+/Users/rudifarkas/opt/anaconda3/bin
+/Users/rudifarkas/GitHub/iOS/.scripts
+/Users/rudifarkas/.scripts
+/Users/rudifarkas/.bin
+/usr/local/sbin
+/usr/local/bin
+/System/Cryptexes/App/usr/bin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+/usr/local/go/bin
+/Library/Apple/usr/bin
+/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+/Users/rudifarkas/.cargo/bin
+/Users/rudifarkas/.local/bin
+/Users/rudifarkas/.bun/bin
+/Users/rudifarkas/GitHub/golang/bin
+/Users/rudifarkas/.bin
+/Users/rudifarkas/.local/bin
+
+# in .zshrc I added previously
+PATH="$HOME/opt/anaconda3/bin:$PATH"
+# install did not mess with it
+
+
